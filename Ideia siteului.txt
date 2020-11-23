@@ -1,2 +1,2 @@
-Ideia sitelui este, crearea unui site informativ pentru turistii straini despre locurile frumoase de vizitat din RM.
-Siteul va contine imagini cu locurile de vizitat din Moldova si va avea cate o decriere informativa despre acesta.
+Ideia sitelui este, crearea unui site ghid pentru turistii straini despre locurile frumoase de vizitat din RM;
+Siteul va contine imagini cu locurile de vizitat din Moldova si va avea cate o decriere informativa despre acesta;
