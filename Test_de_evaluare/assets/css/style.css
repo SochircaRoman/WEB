@@ -1,0 +1,136 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+body{
+	font-family: 'Nunito', sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	color: #3E3F43;
+
+}
+
+section{
+	max-width: 1152px;
+	border: 2px solid blue;
+	margin: 0 auto;
+	height: 950px;
+}
+.home__header{
+	display: grid;
+	grid-template-columns: 1fr 2fr;
+	position: relative;
+	border: 2px solid blue;
+	position: relative;
+}
+.bg{
+	position: absolute;
+	width: 370px;
+	height: 800px;
+	left: 782px;
+	top: 0px;
+	background: #F9BDBD;
+	border-bottom-left-radius: 100px;
+	z-index: -1;
+}
+.header__logo{
+	margin: 23px 115px 0 80px;
+}
+ul{
+	display: grid;
+	grid-template-columns: repeat(6, auto);
+	padding-top: 29px;
+}
+a{
+	color: rgba(34, 34, 34, 0.75);
+	line-height: 22px;
+	font-weight: normal;	
+}
+
+a.active{
+	font-weight: 800px;
+	color: #DAA520;
+}
+a.sign__up{
+	font-weight: bold;
+	border: 1px solid #3E3F43;
+	border-radius: 8px;
+	padding: 8px 25px;
+}
+a:hover{
+	color: #2196f3;
+}
+a.active:hover{
+	color: #DAA520;
+}
+a.sign__up:hover{
+	color: white;
+	border: 1px solid #ffffff;
+}
+
+/* main */
+
+.main__home{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.main__content{
+	margin-left: 102px;
+	margin-top: 161px;
+}
+
+.title{
+	font-size: 36px;
+	line-height: 49px;
+	margin-bottom: 16px;
+}
+
+.subtitle{
+	font-size: 72px;
+	font-weight: bold;
+	line-height: 98px;
+	margin-bottom: 16px;
+}
+
+.button{
+	width: 175px;
+	background: #DAA520;
+	line-height: 22px;
+	padding: 14px 24px;
+	border-radius: 4px;
+}
+
+div.button a{
+	color: #ffffff;
+}
+
+.main__photo{
+	margin-top: 109px;
+}
+div.button a:hover{
+	color: black;
+}
+
+/* Section-About */
+
+.About__border{
+	border: 1px solid #000000;
+	width: 316px;
+	height: 0px;
+}
