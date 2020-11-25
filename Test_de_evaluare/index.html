@@ -5,48 +5,100 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="assets/css/style.css">
 	
+	<link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+	
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
 	<title>Woodies</title>
 </head>
 <body>
-	<section class="home">
+	<!-- SECTION-HOME -->
+	<section class="section__home">
 		<header class="home__header">
-			<div class="bg"></div>
+			<div class="home__background"></div>
 			<a href="index.html">
-				<img src="assets/img/logo-mini.svg" alt="" class="header__logo">
+				<img src="assets/img/header-logo.svg" alt="" class="header__logo">
 			</a>
-			<nav class="home__menu">
-				<ul>
-					<li><a href="#" class="active">Home</a></li>
-					<li><a href="#">About Us</a></li>
-					<li><a href="#">How it works</a></li>
-					<li><a href="#">Categories</a></li>
-					<li><a href="#">Testimony</a></li>
-					<li><a href="#" class="sign__up">SIGN UP</a></li>
+			<nav class="home__nav">
+				<ul class="nav__list">
+					<li><a href="#" class="nav__link nav__link-active">Home</a></li>
+					<li><a href="#" class="nav__link">About Us</a></li>
+					<li><a href="#" class="nav__link">How it works</a></li>
+					<li><a href="#" class="nav__link">Categories</a></li>
+					<li><a href="#" class="nav__link">Testimony</a></li>
+					<li><a href="#" class="nav__link nav__link-sign">SIGN UP</a></li>
 				</ul>
 			</nav>
 		</header>
-		<main class="main__home">
-			<div class="main__content">
-				<div class="title">Are you looking for woodden furniture for your place?</div>
-				<div class="subtitle">This is the Right Place</div>
-				<div class="button"><a href="#">Explore Furniture</a></div>
+		<main class="home__main">
+			<div class="home__content">
+				<div class="content__title">Are you looking for <strong>woodden furniture</strong> for your place?</div>
+				<div class="content__subtitle">This is the Right Place</div>
+				<div class="content__button"><a href="#" class="content__button_link">Explore Furniture</a></div>
 			</div>
-			<img src="assets/img/foto-table.png" alt="" class="main__photo">
+			<img src="assets/img/foto-table.png" alt="" class="content__photo">
 		</main>
 	</section>
-	<section class="About">
-		<div class="container">
-			<img src="" alt="">
-			<div class="About__border"></div>
-			<div class="About__tittle">About Us</div>
-		</div>
 
+	<!-- SECTION-ABOUT -->
+	<section class="section__about">
+		<div class="about__header">
+			<img src="assets/img/logo.svg" alt="" class="about__logo">
+			<div class="about__text">Who we are</div>
+			<div class="about__line"></div>
+			<h2 class="about__title">ABOUT US</h2>
+		</div>
+		<main class="about__main">
+			<div class="about__background"></div>
+			<div class="about__content-1">
+				<img src="assets/img/about-photo1.png" alt="">
+				<div class="content-1__text">
+					<div class="content-1__title"><strong>WOODIES</strong> is the <strong>home of modern wooden furniture</strong></div>
+					<div class="content-1__subtitle">the answer to your need for furniture with shapes, sizes and colors.</div>
+				</div>
+			</div>
+			<div class="about__content-2">
+				<div class="content-2__text">
+					<div class="content-2__title"><span class="about__semi-bold">Customized furniture</span> <span class="about__extra-bold">made just for you</span></div>
+					<div class="content-2__subtitle">Get it easy to adjust furniture to the shape and size of your dwelling or business.</div>
+				</div>
+				<img src="assets/img/about-photo2.png" alt="" class="content-2__photo">
+			</div>
+		</main>
 	</section>
-	<section class="How-it-works"></section>
-	<section class="Categories"></section>
-	<section class="Testimony"></section>
+
+	<!-- SECTION-WORK -->
+	<section class="section__work">
+		<div class="work__header">
+			<img src="assets/img/logo.svg" alt="" class="work__logo">
+			<div class="work__text">How to custom</div>
+			<div class="work__line"></div>
+			<h2 class="work__title">HOW IT WORKS</h2>
+		</div>
+		<main class="work__main">
+			<div class="work__items">
+				<div class="items">
+					<img src="assets/img/work-icon1.svg" alt="" class="icon-1">
+					<img src="assets/img/work-icon2.svg" alt="" class="icon-2">
+					<img src="assets/img/work-icon3.svg" alt="" class="icon-3">
+					<img src="assets/img/work-icon4.svg" alt="" class="icon-4">
+				</div>
+				<div class="items__text">
+					<div class="text">Choose Design</div>
+					<div class="text">Area measuring</div>
+					<div class="text">Budgeting</div>
+					<div class="text">Production</div>
+				</div>
+			</div>
+			<div class="work__button"><a href="#" class="work__button_link">Get Personalized Now</a></div>
+		</main>
+	</section>
+
+
+
+	<section class="section__categories"></section>
+	<section class="section__testimony"></section>
 	<footer></footer>
 
 </body>
