@@ -1,0 +1,18 @@
+.grid{
+	display: grid;
+
+	color: white;
+	font-size: 30px;
+	padding: 20px;
+	background-color: #794f45;
+	margin: 0px 0px 20px 0px;
+}
+
+.inline-grid{
+	display: inline-grid;
+
+	color: white;
+	font-size: 30px;
+	padding: 20px;
+	background-color: #77608d;
+}
