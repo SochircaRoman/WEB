@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>My Site</title>
+        <!--Favicon-->
+        <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+        <!--Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
+        <!--includes Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <!--CSS-->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body id="home-page">
+        <!--HOME-NAV-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <img src="assets/img/logo-icon.png" alt="">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                </button>
+                <div class="collapse navbar-collapse" id="menu">
+                    <ul class="navbar-nav text-uppercase ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="#home-page">Home</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#about-page">About Moldova</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#places-page">Places</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#gallery-page">Gallery</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#contact-page">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!--HOME-CONTENT-->
+        <header class="home-main">
+            <div class="container">
+                <div class="home-subheading">Moldova tourism guide</div>
+                <div class="home-heading text-uppercase">Discover Moldova</div>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#about-page">Learn More</a>
+            </div>
+        </header>
+
+        <!--ABOUT MOLDOVA-->
+        <section class="page-section" id="about-page">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">About Moldova</h2>
+                </div>
+                <ul class="about-line">
+                    <li>
+                        <img src="assets/img/about/photo1.png" alt="">
+                        <div class="about-panel">
+                            <div class="about-heading">
+                                <h4 class="subheading">Geography of Moldova</h4>
+                            </div>
+                            <p class="text-muted">Moldova is located in southeastern Europe, in the west the Prut River forms the border with Romania, and in the north, south and east it borders Ukraine. Most of the territory consists of the hilly plateau between the Prut and the Dniester. The Danube forms for 569 m the southern border of the country. Coast: The Republic of Moldova has an access of 569 m to the Danube, which in this place is navigable for seagoing vessels.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <img src="assets/img/about/photo2.png" alt="">
+                        <div class="about-panel">
+                            <div class="about-heading">
+                                <h4 class="subheading">Culture of Moldova</h4>
+                            </div>
+                            <p class="text-muted">Culture of the Republic of Moldova - is the culture of the Moldovan state, later of Bessarabia and Moldova across the Prut, of the Autonomous Soviet Socialist Republic, of the Soviet Socialist Republic of Moldova and of the independent Republic of Moldova. The culture of Moldova is related to different nationalities, who lived and still live on the above-mentioned territory, to the language spoken on the territory of Moldova.</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!--PLACES-->
+        <section class="page-section bg-light" id="places-page">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Categories</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4">
+                        <div class="places-categories">
+                            <img class="mx-auto" src="assets/img/categories/photo1.png" alt="">
+                            <h4>Monasteries</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="places-categories">
+                            <img class="mx-auto" src="assets/img/categories/photo2.png" alt="">
+                            <h4>Wineries</h4>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="places-categories">
+                            <img class="mx-auto" src="assets/img/categories/photo3.png" alt="">
+                            <h4>Tourist Attractions</h4>
+                        </div>
+                    </div>
+                </div>   
+            </div>
+            <div class="content-container">
+                <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                  <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"></li>
+                    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"></li>
+                    <li data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"></li>
+                  </ol>
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="assets/img/carousel/photo1.jpg" class="d-block w-100" alt="">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Cricova Winery</h5>
+                        <p>This wonderful “wine city” includes warehouses, underground tasting rooms, and guided tours.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/carousel/photo2.jpg" class="d-block w-100" alt="">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Căpriana Monastery</h5>
+                        <p>Sitting in a lush green forest in Capriana is one of the oldest monasteries in Moldova.</p>
+                      </div>
+                    </div>
+                    <div class="carousel-item">
+                      <img src="assets/img/carousel/photo3.jpg" class="d-block w-100" alt="">
+                      <div class="carousel-caption d-none d-md-block">
+                        <h5>Soroca Fort</h5>
+                        <p>It is known for its well-preserved stronghold, established by the Moldavian Prince Stephen the Great.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </a>
+                  <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </a>
+                </div>
+            </div>           
+        </section>
+
+        <!--Gallery-->
+        <section class="page-section bg-light" id="gallery-page">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Photo Gallery</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="gallery-item">
+                            <img class="img-fluid" src="assets/img/gallery/photo1.jpg" alt="">
+                            <div class="gallery-caption">
+                                <div class="gallery-caption-heading">Hâncu Monastery</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="gallery-item">
+                            <img class="img-fluid" src="assets/img/gallery/photo2.jpg" alt="">
+                            <div class="gallery-caption">
+                                <div class="gallery-caption-heading">Soroca Fortress</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="gallery-item">
+                            <img class="img-fluid" src="assets/img/gallery/photo3.jpg" alt="">
+                            <div class="gallery-caption">
+                                <div class="gallery-caption-heading">Orhei Vechi Monastery</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="gallery-item">
+                            <img class="img-fluid" src="assets/img/gallery/photo4.jpg" alt="">
+                            <div class="gallery-caption">
+                                <div class="gallery-caption-heading">Chateau Vartely</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="gallery-item">
+                            <img class="img-fluid" src="assets/img/gallery/photo5.jpg" alt="">
+                            <div class="gallery-caption">
+                                <div class="gallery-caption-heading">Purcari Winery</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="gallery-item">
+                            <img class="img-fluid" src="assets/img/gallery/photo6.jpg" alt="">
+                            <div class="gallery-caption">
+                                <div class="gallery-caption-heading">Cricova Winery</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="gallery-item">
+                            <img class="img-fluid" src="assets/img/gallery/photo7.jpg" alt="">
+                            <div class="gallery-caption">
+                                <div class="gallery-caption-heading">Chateau Cojușna</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="gallery-item">
+                            <img class="img-fluid" src="assets/img/gallery/photo8.jpg" alt="">
+                            <div class="gallery-caption">
+                                <div class="gallery-caption-heading">Mileștii Mici Winery</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <div class="gallery-item">
+                            <img class="img-fluid" src="assets/img/gallery/photo9.jpg" alt="">
+                            <div class="gallery-caption">
+                                <div class="gallery-caption-heading">Ralli Manor Museum</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--CONTACT-->
+        <section class="page-section" id="contact-page">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Contact</h2>
+                    <h3 class="section-subheading text-muted">You can find me on Viber, “gmail@.com”, Facebook, Instagram</h3>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 col-sm-3 my-3">
+                        <a target="blanck" href="https://www.viber.com/en/"><img class="img-fluid ml-5" src="assets/img/social/icon-viber.png" alt=""></a>
+                    </div>
+                    <div class="col-md-3 col-sm-3 my-3">
+                        <a target="blanck" href="https://www.gmail.com/mail/help/intl/en/about.html?utm_expid=..."><img class="img-fluid ml-5" src="assets/img/social/icon-gmail.png" alt=""></a>
+                    </div>
+                    <div class="col-md-3 col-sm-3 my-3">
+                        <a target="blanck" href="https://ro-ro.facebook.com/"><img class="img-fluid ml-5" src="assets/img/social/icon-facebook.png" alt=""></a>
+                    </div>
+                    <div class="col-md-3 col-sm-3 my-3">
+                        <a target="blanck" href="https://www.instagram.com/"><img class="img-fluid ml-5" src="assets/img/social/icon-instagram.png" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--FOOTER-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-left">All Rights Reserved © Website 2020</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                    </div>
+                    <div class="col-lg-4 text-lg-right">
+                        <a class="mr-3" href="#!">Privacy Policy</a>
+                        <a href="#!">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!--JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

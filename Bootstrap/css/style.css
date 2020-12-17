@@ -1,0 +1,272 @@
+body {
+  margin: 0;
+  font-family: "Roboto Slab", Roboto, sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: left;
+  background-color: #fff;
+}
+h4, h3, h2 {
+  margin-bottom: 0.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 1.2;
+}
+a {
+  color: #fed136;
+  text-decoration: none;
+  background-color: transparent;
+}
+a:hover {
+  color: #e6b301;
+}
+.mr-3 {
+  margin-right: 1rem !important;
+}
+
+  /*HOME-NAV*/
+#mainNav {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  background-color: #212529;
+}
+#mainNav .navbar-toggler {
+  padding: 0.75rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.75rem;
+  color: #fff;
+  text-transform: uppercase;
+  background-color: #fed136;
+  border: 0;
+}
+.ml-auto,
+.mx-auto {
+  margin-left: auto !important;
+}
+#mainNav .navbar-brand {
+  color: #fed136;
+  font-family: "Montserrat";
+  font-weight: 700;
+  letter-spacing: 0.0625em;
+  text-transform: uppercase;
+}
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-family: "Montserrat", sans-serif;
+  font-size: 0.95rem;
+  color: #fff;
+  letter-spacing: 0.0625em;
+}
+#mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
+  color: #fed136;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border: none;
+    background-color: transparent;
+    transition: padding-top 0.3s ease-in-out, padding-bottom 0.3s ease-in-out;
+  }
+  #mainNav .navbar-brand {
+    font-size: 1.5em;
+    transition: font-size 0.3s ease-in-out;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: #212529;
+  }
+  #mainNav .navbar-nav .nav-item {
+    margin-right: 1rem;
+  }
+  #mainNav .navbar-nav .nav-item:last-child {
+    margin-right: 0;
+  }
+}
+
+/*HOME-CONTENT*/
+.home-main {
+  padding-top: 10.5rem;
+  padding-bottom: 6rem;
+  text-align: center;
+  color: #fff;
+  background-image: url("../assets/img/home-bg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-position: center center;
+  background-size: cover;
+}
+.home-subheading {
+  font-size: 1.5rem;
+  font-style: italic;
+  line-height: 1.5rem;
+  margin-bottom: 25px;
+  font-family: "Droid Serif", sans-serif;
+}
+.home-heading {
+  font-size: 3.25rem;
+  font-weight: 700;
+  line-height: 3.25rem;
+  margin-bottom: 2rem;
+  font-family: "Montserrat", sans-serif;
+}
+@media (min-width: 768px) {
+  .home-main {
+    padding-top: 17rem;
+    padding-bottom: 12.5rem;
+  }
+  .home-subheading {
+    font-size: 2.25rem;
+    font-style: italic;
+    line-height: 2.25rem;
+    margin-bottom: 2rem;
+  }
+  .home-heading {
+    font-size: 4.5rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+    margin-bottom: 4rem;
+  }
+}
+.btn-primary {
+  color: #fff;
+  background-color: #fec810;
+  border-color: #fec503;
+  border-radius: 15px;
+}
+.btn-primary:hover {
+  color: #fff;
+  background-color: #fed136;
+  border-color: #fed136;
+  text-decoration: none;
+}
+.btn-primary:not(:disabled):not(.disabled):active:focus {
+  box-shadow: 0 0 0 0.2rem rgba(254, 216, 84, 0.5);
+}
+.btn-xl {
+  padding: 1.25rem 2.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+
+  /*ABOUT MOLDOVA*/
+.page-section {
+  padding: 6rem 0;
+}
+.page-section h2.section-heading {
+  font-size: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 10rem;
+}
+.about-line {
+  position: relative;
+  padding: 0;
+  list-style: none;
+}
+.about-line li:after, .about-line li:before {
+  display: table;
+  content: " ";
+}
+.about-line li:after {
+  clear: both;
+}
+.about-line li .about-panel {
+  position: relative;
+  float: right;
+  width: 100%;
+  padding: 10px 0 70px 0;
+  text-align: left;
+}
+
+@media (min-width: 768px) {
+  .about-line: before {
+    left: 50%;
+  }
+  .about-line li {
+    min-height: 100px;
+    margin-bottom: 100px;
+  }
+  .about-line li .about-panel {
+    float: left;
+    width: 41%;
+    padding: 0 20px 20px 30px;
+    text-align: right;
+  }
+  .about-line .about-panel {
+    float: right;
+    padding: 0 30px 20px 20px;
+    text-align: left;
+  }
+}
+@media (min-width: 992px) {
+  .about-line li {
+    min-height: 150px;
+  }
+  .about-line li.about-panel {
+    padding: 0 20px 20px;
+  }
+}
+@media (min-width: 1200px) {
+  .about-line li {
+    min-height: 170px;
+  }
+  .about-line li.about-panel {
+    padding: 0 20px 20px 100px;
+  }
+}
+
+
+  /*PLACES*/
+.places-categories {
+  margin-bottom: 3rem;
+  text-align: center;
+}
+.places-categories img {
+  width: 20rem;
+  height: 15rem;
+}
+.places-categories h4 {
+  margin-top: 1.5rem;
+  margin-bottom: 0;
+}
+.content-container{
+  margin: 0 auto;
+  width: 30%;
+  height: 30%;
+}
+
+
+  /*GALLERY*/
+.gallery-item {
+  max-width: 25rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+  /*CONTACT*/
+.page-section h3.section-subheading {
+  font-size: 1rem;
+  font-weight: 400;
+  font-style: italic;
+  font-family: "Droid Serif", sans-serif;
+  margin-bottom: 4rem;
+}
+.ml-5 {
+  margin-left: 3rem !important;
+}
+
+
+  /*FOOTER*/
+.footer {
+  color: #fff;
+  background-color: #212529;
+  text-align: center;
+  font-size: 0.9rem;
+  font-family: "Montserrat", sans-serif;
+}
