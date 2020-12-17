@@ -1,0 +1,117 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 150%;
+	color: #000000;
+}
+.wrapper{
+	background: #E5E5E5;
+}
+
+	/*HEADER*/
+.about__header{
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	background: #FFFFFF;
+	margin-bottom: 100px;
+	justify-content: start;
+}
+.about__logo{
+	margin: 10px 0 15px 15px;
+}
+.about__nav__bar{
+	display: grid;
+	grid-template-columns: repeat(5, auto);
+	column-gap: 30px;
+	margin: 45px 0 0 120px;
+}
+.about__nav__button{
+	background: #DB933E;
+	border-radius: 40px;
+	width: 180px;
+	height: 50px;
+}
+.about__nav-link{
+	display: grid;
+	font-size: 20px;
+	line-height: 30px;
+	color: #FFFFFF;
+	font-weight: bold;
+	justify-content: center;
+	margin-top: 10px;
+}
+.nav__button-active{
+	background: rgba(219, 147, 62, 0.6);
+}
+
+	/*MAIN*/
+.about__main{
+	background: #FFFFFF;
+	width: 90%;
+	height: 1100px;
+	margin: 0 auto;
+}
+.about__main__block1{
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	margin: 60px;
+}
+.block1-photo{
+	margin-top: 120px;
+}
+.block1-text{
+	margin-top: 65px;
+	margin-left: 80px;
+}
+.block1-text-title{
+	color: #000000;
+	font-size: 40px;
+	line-height: 53px;
+	font-weight: bold;
+	margin-left: 150px;
+}
+.text-subtitle1{
+	margin: 15px 0 30px 0;
+}
+
+.about__main__block2{
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	margin: 60px;
+}
+.block2-text-title{
+	color: #000000;
+	font-size: 40px;
+	line-height: 53px;
+	font-weight: bold;
+	margin-left: 150px;
+	margin-top: 50px;
+	margin-bottom: 15px;
+}
+.block2-photo{
+	margin-top: 70px;
+}
+.block2-text-subtitle{
+	margin-right: 80px;
+}

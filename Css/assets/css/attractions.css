@@ -1,0 +1,124 @@
+/*Обнуление*/
+*{padding: 0;margin: 0;border: 0;}
+*,*:before,*:after{-moz-box-sizing: border-box;-webkit-box-sizing: border-box;box-sizing: border-box;}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{height:100%;width:100%;font-size:100%;line-height:1;font-size:14px;-ms-text-size-adjust:100%;-moz-text-size-adjust:100%;-webkit-text-size-adjust:100%;}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: inherit;}
+/*--------------------*/
+
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+	font-weight: normal;
+	font-style: normal;
+	line-height: 150%;
+	color: #000000;
+}
+.wrapper{
+	background: #E5E5E5;
+}
+
+	/*HEADER*/
+.monasteries__header{
+	width: 100%;
+	display: grid;
+	grid-template-columns: repeat(2, auto);
+	background: #FFFFFF;
+	margin-bottom: 100px;
+	justify-content: start;
+}
+.monasteries__logo{
+	margin: 10px 0 15px 15px;
+}
+.monasteries__nav__bar{
+	display: grid;
+	grid-template-columns: repeat(5, auto);
+	column-gap: 30px;
+	margin: 45px 0 0 120px;
+}
+.monasteries__nav__button{
+	background: #DB933E;
+	border-radius: 40px;
+	width: 180px;
+	height: 50px;
+}
+.monasteries__nav-link{
+	display: grid;
+	font-size: 20px;
+	line-height: 30px;
+	color: #FFFFFF;
+	font-weight: bold;
+	justify-content: center;
+	margin-top: 10px;
+}
+.nav__button-active{
+	background: rgba(219, 147, 62, 0.6);
+}
+
+	/*MAIN*/
+.monasteries__main{
+	background: #FFFFFF;
+	width: 90%;
+	height: 1300px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.back__button{
+	background: rgba(194, 204, 222, 0.5);
+	border-radius: 30px;
+	width: 200px;
+	height: 40px;
+	margin-left: 20px;
+	padding-left: 4px;
+	padding-top: 3px;
+}
+a{
+	font-size: 20px;
+	line-height: 32px;
+	color: #1D41FF;
+}
+
+.monasteries__main__block1{
+	margin-top: 100px;
+	margin-left: 100px;
+	margin-right: 50px;
+}
+.monasteries__content{
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+}
+.block1-title{
+	font-weight: bold;
+	font-size: 38px;
+	line-height: 51px;
+	margin-bottom: 15px;
+}
+.block1-description{
+	font-size: 25px;
+	line-height: 40px;
+}
+.next-button{
+	background: rgba(0, 0, 0, 0.8);
+	width: 200px;
+	height: 50px;
+	margin-left: 640px;
+	margin-top: 100px;
+}
+.next-button-link{
+	font-size: 30px;
+	line-height: 48px;
+	font-weight: bold;
+	color: #ffffff;
+	margin-left: 60px;
+	margin-top: 5px;
+}
